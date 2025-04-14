@@ -50,3 +50,26 @@ All contributions adhere to the following package structure:
 1. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
+
+
+## References
+1. **McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A.** (2017).  
+   [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629).  
+   *arXiv:1602.05629*.  
+   *(Original Federated Averaging (FedAvg) paper)*
+
+2. **Kairouz, P., McMahan, H. B., Avent, B., et al.** (2019).  
+   [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977).  
+   *arXiv:1912.04977*.  
+   *(Comprehensive survey on FL challenges)*
+
+3. **Baruch, M., Baruch, G., & Goldberg, Y.** (2019).  
+   [A Little Is Enough: Circumventing Defenses For Distributed Learning](https://arxiv.org/abs/1902.06156).  
+   *arXiv:1902.06156*.  
+   *(Seminal paper on model poisoning attacks in FL)*
+
+4. **Bhagoji, A. N., Chakraborty, S., Mittal, P., & Calo, S.** (2019).  
+   [Analyzing Federated Learning through an Adversarial Lens](https://arxiv.org/abs/1811.12470).  
+   *arXiv:1811.12470*.  
+   *(Foundational work on FL adversarial robustness)*
