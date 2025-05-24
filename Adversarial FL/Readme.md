@@ -124,7 +124,7 @@ FEDPARA_RANK = 8                   # Compression rank for FedPara
 
 ## Results
 
-![Global Accuracy Comparison](helper/global_accuracy.png)
+![Global Accuracy Plot](./helper/global_accuracy.png)
 *Figure 1: Global model accuracy across federated learning rounds with UAP attacks*
 
 ---
