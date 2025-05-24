@@ -5,11 +5,12 @@ We created this repository as the end of module project, the module named 'Feder
 This repository is a practical implementation of **Adversarial Machine Learning in a Federated Context**, exploring the intersection of robustness, privacy, and decentralized learning. 
 
 ## Overview
-Federated Learning (FL) [1](#references) has emerged as a pivotal machine learning framework, addressing key challenges in data privacy, security, and decentralized data processing. Since its introduction by Google in 2017, FL has gained significant traction due to its ability to overcome major limitations in traditional centralized approaches [2](#references). 
+Federated Learning (FL) [[1]](#references) has emerged as a pivotal machine learning framework, addressing key challenges in data privacy, security, and decentralized data processing. Since its introduction by Google in 2017, FL has gained significant traction due to its ability to overcome major limitations in traditional centralized approaches [[2]](#references). 
 
-This project implements **adversarial attacks and defenses** in FL [4](#references), reproducing foundational papers while adhering to a modular and consistent coding style. The goal is to build a well-structured library that integrates multiple FL strategies and adversarial techniques for robust benchmarking [3](#references).
+This project implements **adversarial attacks and defenses** in FL [[4]](#references), reproducing foundational papers while adhering to a modular and consistent coding style. The goal is to build a well-structured library that integrates multiple FL strategies and adversarial techniques for robust benchmarking [[3]](#references).
 
 ---
+
 
 ## Key Features
 - **Modular FL Framework**: Implements FedAvg and other FL strategies with a standardized structure.
