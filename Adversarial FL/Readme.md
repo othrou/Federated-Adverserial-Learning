@@ -108,4 +108,9 @@ FEDPARA_RANK = 8                   # Compression rank for FedPara
    - `class_accuracy_comparison.png`: Target class accuracy drop
    - `communication_savings.png`: FedPara vs Standard model size
 
+
+![Description 1](helper/classacc_homogeneous.png)
+
+![Description 2](helper/global accuracy.png)
+
 ---
