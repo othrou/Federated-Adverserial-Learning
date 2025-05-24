@@ -122,7 +122,7 @@ FEDPARA_RANK = 8                   # Compression rank for FedPara
    - `communication_savings.png`: FedPara vs Standard model size
 
 
-![Description 1](helper/classacc_homogeneous.png)
+![Description 1](helper\global accuracy.png)
 
 ![Description 2](helper/global accuracy.png)
 
