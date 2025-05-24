@@ -7,12 +7,25 @@ This project simulates federated learning (FL) with adversarial attacks to evalu
 In this directory, we performed some tests to show the vulnerabilities of FL systems agains adversarial attacks.
 
 
-### 1-**Universal Adversarial Perturbation (UAP) **
+### Universal Adversarial Perturbation (UAP)
 UAP is a powerful adversarial attack that creates a single perturbation pattern capable of fooling a model on **most input samples** when added to them. Key properties:
 
 1. **Universal**: One perturbation works for many inputs (unlike input-specific adversarial examples)
 2. **Transferable**: Often works across different models
 3. **Stealthy**: Small perturbations are visually imperceptible
+
+The **objective of UAP** is to find a perturbation vector $v$ that satisfies two key constraints:
+
+1. The perturbation norm $\|v\|_p$ must be less than or equal to a threshold $\xi$, which controls the magnitude of the perturbation to keep it imperceptible or limited.
+
+2. The probability that the classifier’s prediction changes under the perturbation is at least $1 - \delta$, where $\delta$ is a small tolerance parameter. Formally:
+
+$$
+\mathbb{P}_{x \sim \mu} \left( \hat{k}(x + v) \neq \hat{k}(x) \right) \geq 1 - \delta
+$$
+
+This means that the perturbation $v$ should cause misclassification on most inputs drawn from distribution $\mu$.
+
 
 **In Federated Learning Context**:
 - Malicious clients compute UAPs that cause misclassification of a target class
