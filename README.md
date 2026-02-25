@@ -1,7 +1,5 @@
 # Adversarial Machine Learning in Federated Learning (FL)
 
-We created this repository as the end of module project, the module named 'Federated Learning'.
-
 This repository is a practical implementation of **Adversarial Machine Learning in a Federated Context**, exploring the intersection of robustness, privacy, and decentralized learning. 
 
 ## Overview
@@ -60,3 +58,4 @@ Some of the references :
    [Analyzing Federated Learning through an Adversarial Lens](https://arxiv.org/abs/1811.12470).  
    *arXiv:1811.12470*.  
    *(Foundational work on FL adversarial robustness)*
+
